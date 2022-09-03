@@ -5745,11 +5745,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjetosWokingCode\\WebApiMicroData\\Context\\Context.csproj",
+      "projectUniqueName": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj",
       "projectName": "Context",
-      "projectPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Context\\Context.csproj",
+      "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj",
       "packagesPath": "C:\\Users\\sasi\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Context\\obj\\",
+      "outputPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5770,8 +5770,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj": {
-              "projectPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj"
+            "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj": {
+              "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj"
             }
           }
         }

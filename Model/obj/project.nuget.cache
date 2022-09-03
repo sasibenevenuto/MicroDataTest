@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dK6rxkA9O/2XmZchrBHIFLr+66z5jxFG1WJyrxzSgk3KtRT2C0nrjkXWdkW66kR4LCSOsBiMKdg6jOnNp+Rh6w==",
+  "dgSpecHash": "1AG9ouZxOhpVdileVIzQOnir9TlDw6Vz0eG1MhzQkr9QTQfNU4vG1KR2YF++CrTpMqXi/w5tgrmcEWTLfmO1Fw==",
   "success": true,
-  "projectFilePath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj",
+  "projectFilePath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

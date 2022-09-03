@@ -1,0 +1,17 @@
+/Application/bin/Debug
+/Application/obj/Debug
+/Context/bin/Debug
+/Context/obj/Debug
+/Repository/bin/Debug
+/Repository/obj/Debug
+/DataBase/bin/Debug
+/DataBase/obj/Debug
+/Model/bin/Debug
+/Model/obj/Debug
+/Service/bin/Debug
+/Service/obj/Debug
+/WCI_ComAutoMobile/bin/Debug
+/WCI_ComAutoMobile/obj/Debug
+/WCI_XUnitTest/bin/Debug
+/WCI_XUnitTest/obj/Debug
+/.vs/WCI_ComAutoMobile/v16

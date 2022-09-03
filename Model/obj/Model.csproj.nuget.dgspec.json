@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj": {}
+    "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj": {
+    "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj",
+        "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\sasi\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\obj\\",
+        "outputPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

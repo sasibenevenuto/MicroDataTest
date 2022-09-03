@@ -5694,11 +5694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjetosWokingCode\\WebApiMicroData\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Repository\\Repository.csproj",
+      "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\sasi\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Repository\\obj\\",
+      "outputPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5719,11 +5719,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\ProjetosWokingCode\\WebApiMicroData\\Context\\Context.csproj": {
-              "projectPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Context\\Context.csproj"
+            "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj": {
+              "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj"
             },
-            "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj": {
-              "projectPath": "C:\\ProjetosWokingCode\\WebApiMicroData\\Model\\Model.csproj"
+            "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj": {
+              "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj"
             }
           }
         }
