@@ -1,0 +1,10 @@
+C:\ProjetosWokingCode\WebApiMicroData\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\ProjetosWokingCode\WebApiMicroData\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\ProjetosWokingCode\WebApiMicroData\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.csproj.AssemblyReference.cache
+C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.pdb
