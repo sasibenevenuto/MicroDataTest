@@ -4,6 +4,7 @@ using Model.Orders;
 using Model.Orders.Commands;
 using Repository;
 using Repository.Orders;
+using Repository.Orders.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +13,13 @@ using System.Threading.Tasks;
 
 namespace Business.Orders
 {
-    public class BOrder : BRepository<Order>, IBOrder
+    public class BOrder : IBOrder
     {
-        ROrder _rOrder;
+        IROrder _rOrder;
 
-        public BOrder(SolutionContext context)
-            : base(new ROrder(context))
+        public BOrder(IROrder rOrder)
         {
-            _rOrder = new ROrder(context);
+            _rOrder = rOrder;
         }
 
         public async Task Delete(int orderId)

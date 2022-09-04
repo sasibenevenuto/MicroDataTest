@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Business.Orders.Interfaces
 {
-    public interface IBOrder : IRepository<Order>
+    public interface IBOrder
     {
         Task<List<Order>> GetAll();
         Task<Order> Insert(OrderCommand order);

@@ -3,6 +3,7 @@ using Context;
 using Model.Orders;
 using Model.Orders.Commands;
 using Repository.Orders;
+using Repository.Orders.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,15 +12,14 @@ using System.Threading.Tasks;
 namespace Business.OrderItems
 {   
 
-    public class BOrderItem : BRepository<OrderItem>, IBOrderItem
+    public class BOrderItem : IBOrderItem
     {
-        ROrderItem _rOrderItem;
+        IROrderItem _rOrderItem;
 
-        public BOrderItem(SolutionContext context)
-            : base(new ROrderItem(context))
+        public BOrderItem(IROrderItem rOrderItem)
         {
-            _rOrderItem = new ROrderItem(context);
-        }
+            _rOrderItem = rOrderItem;
+        }       
 
         public async Task Delete(int orderItemId)
         {

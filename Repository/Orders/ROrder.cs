@@ -1,6 +1,7 @@
 ﻿using Context;
 using Model.Orders;
 using Model.Orders.Commands;
+using Repository.Orders.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Orders
 {
-    public class ROrder : Repository<Order>
+    public class ROrder : Repository<Order>, IROrder
     {
         public ROrder(SolutionContext context) : base(context)
         {

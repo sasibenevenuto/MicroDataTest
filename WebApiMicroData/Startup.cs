@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Model.General;
+using Repository.Orders;
+using Repository.Orders.Interfaces;
 
 namespace WebApiMicroData
 {
@@ -34,6 +36,8 @@ namespace WebApiMicroData
             services.AddDbContext<SolutionContext>(options =>
               options.UseSqlServer(connection));
 
+            services.AddScoped<IROrder, ROrder>();
+            services.AddScoped<IROrderItem, ROrderItem>();
             services.AddScoped<IBOrder, BOrder>();
             services.AddScoped<IBOrderItem, BOrderItem>();
 
