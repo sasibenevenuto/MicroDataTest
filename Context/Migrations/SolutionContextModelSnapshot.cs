@@ -60,7 +60,7 @@ namespace Context.Migrations
 
             modelBuilder.Entity("Model.Orders.OrderItem", b =>
                 {
-                    b.Property<int>("OrderedItemId")
+                    b.Property<int>("OrderItemId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -92,8 +92,8 @@ namespace Context.Migrations
                     b.Property<decimal>("ValueUnit")
                         .HasColumnType("decimal(5,2)");
 
-                    b.HasKey("OrderedItemId")
-                        .HasName("PrimaryKey_OrderedItemId");
+                    b.HasKey("OrderItemId")
+                        .HasName("PrimaryKey_OrderItemId");
 
                     b.HasIndex("OrderId");
 

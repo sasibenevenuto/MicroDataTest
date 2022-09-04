@@ -13,7 +13,7 @@ namespace Context.OrdersConfig
         {
             modelBuilder.Entity<OrderItem>()
                 .HasKey(c => c.OrderItemId)
-                .HasName("PrimaryKey_OrderedItemId");
+                .HasName("PrimaryKey_OrderItemId");
 
             modelBuilder.Entity<OrderItem>()
                 .Property(c => c.ProductCod)
@@ -26,6 +26,10 @@ namespace Context.OrdersConfig
             modelBuilder.Entity<OrderItem>()
                 .Property(c => c.ValueUnit)
                 .HasColumnType("decimal(5,2)")
+                .IsRequired();
+
+            modelBuilder.Entity<OrderItem>()
+                .Property(c => c.OrderId)
                 .IsRequired();
 
             modelBuilder.Entity<OrderItem>()

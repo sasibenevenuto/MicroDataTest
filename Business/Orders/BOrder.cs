@@ -1,6 +1,7 @@
 ﻿using Business.Orders.Interfaces;
 using Context;
 using Model.Orders;
+using Model.Orders.Commands;
 using Repository;
 using Repository.Orders;
 using System;
@@ -25,7 +26,7 @@ namespace Business.Orders
         {
             try
             {
-                await _rOrder.Delete(o => o.OrderId == orderId);
+                await _rOrder.Delete(orderId);
             }
             catch (Exception ex)
             {
@@ -47,7 +48,7 @@ namespace Business.Orders
             }
         }
 
-        public async Task<Order> Insert(Order order)
+        public async Task<Order> Insert(OrderCommand order)
         {
             try
             {
@@ -62,7 +63,7 @@ namespace Business.Orders
             }
         }
 
-        public async Task<Order> UpdateOrder(Order order)
+        public async Task<Order> UpdateOrder(OrderCommand order)
         {
             try
             {

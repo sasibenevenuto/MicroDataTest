@@ -4,6 +4,71 @@
     "C:\\ProjetosWorkingCode\\WebApiMicroData\\WebApiMicroData\\WebApiMicroData.csproj": {}
   },
   "projects": {
+    "C:\\ProjetosWorkingCode\\WebApiMicroData\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\sasi\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj": {
+                "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj"
+              },
+              "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -140,6 +205,77 @@
         }
       }
     },
+    "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\sasi\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj": {
+                "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj"
+              },
+              "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj": {
+                "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\ProjetosWorkingCode\\WebApiMicroData\\WebApiMicroData\\WebApiMicroData.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -168,6 +304,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\ProjetosWorkingCode\\WebApiMicroData\\Business\\Business.csproj": {
+                "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Business\\Business.csproj"
+              },
               "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj": {
                 "projectPath": "C:\\ProjetosWorkingCode\\WebApiMicroData\\Context\\Context.csproj"
               },

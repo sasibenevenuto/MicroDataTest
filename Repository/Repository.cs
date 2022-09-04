@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class Repository<TEntity> : IDisposable, IRepository<TEntity> where TEntity : BaseModel
+    public class Repository<TEntity> : IDisposable where TEntity : BaseModel
     {
         protected SolutionContext _db;
 
@@ -20,7 +20,7 @@ namespace Repository
             _db = db;
         }
 
-        public async Task Add(TEntity entity)
+        protected async Task Add(TEntity entity)
         {
             entity = BeforAdd(entity);
             using (var tc = _db.Database.BeginTransaction())
@@ -40,7 +40,7 @@ namespace Repository
             }
         }
 
-        public async Task Delete(Func<TEntity, bool> predicate)
+        protected async Task Delete(Func<TEntity, bool> predicate)
         {
             using (var tc = _db.Database.BeginTransaction())
             {
@@ -58,7 +58,7 @@ namespace Repository
             }
         }
 
-        public async Task<List<TEntity>> GetListAll(Expression<Func<TEntity, bool>> predicate, Expression<Func<TEntity, object>> includes = null)
+        protected async Task<List<TEntity>> GetListAll(Expression<Func<TEntity, bool>> predicate, Expression<Func<TEntity, object>> includes = null)
         {
             if (includes != null)
                 return await _db.Set<TEntity>().Where(predicate).Include(includes).ToListAsync();
@@ -66,12 +66,12 @@ namespace Repository
                 return await _db.Set<TEntity>().Where(predicate).ToListAsync();
         }
 
-        public async Task<TEntity> GetOne(params object[] Keys)
+        protected async Task<TEntity> GetOne(params object[] Keys)
         {
             return await _db.Set<TEntity>().FindAsync(Keys);
         }
 
-        public async Task Update(TEntity entity)
+        protected async Task Update(TEntity entity)
         {
             entity = BeforUpdate(entity);
             using (var tc = _db.Database.BeginTransaction())

@@ -31,7 +31,7 @@ namespace Context.Migrations
                 name: "OrderItems",
                 columns: table => new
                 {
-                    OrderedItemId = table.Column<int>(nullable: false)
+                    OrderItemId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Active = table.Column<bool>(nullable: false),
                     CreateDate = table.Column<DateTime>(nullable: false),
@@ -45,7 +45,7 @@ namespace Context.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PrimaryKey_OrderedItemId", x => x.OrderedItemId);
+                    table.PrimaryKey("PrimaryKey_OrderItemId", x => x.OrderItemId);
                     table.ForeignKey(
                         name: "FK_OrderItems_Orders_OrderId",
                         column: x => x.OrderId,

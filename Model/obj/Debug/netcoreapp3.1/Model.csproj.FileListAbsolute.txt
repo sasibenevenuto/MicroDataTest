@@ -8,3 +8,13 @@ C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.Assemb
 C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
 C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.dll
 C:\ProjetosWokingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.pdb
+C:\ProjetosWorkingCode\WebApiMicroData\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\ProjetosWorkingCode\WebApiMicroData\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\ProjetosWorkingCode\WebApiMicroData\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\ProjetosWorkingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.csproj.AssemblyReference.cache
+C:\ProjetosWorkingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosWorkingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\ProjetosWorkingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\ProjetosWorkingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+C:\ProjetosWorkingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\ProjetosWorkingCode\WebApiMicroData\Model\obj\Debug\netcoreapp3.1\Model.pdb

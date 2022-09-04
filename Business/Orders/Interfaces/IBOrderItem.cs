@@ -1,4 +1,5 @@
 ﻿using Model.Orders;
+using Model.Orders.Commands;
 using Repository;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,8 @@ namespace Business.Orders.Interfaces
     public interface IBOrderItem : IRepository<OrderItem>
     {
         Task<List<OrderItem>> GetAll();
-        Task<OrderItem> Insert(OrderItem order);
-        Task<OrderItem> UpdateOrderItem(OrderItem order);
+        Task<OrderItem> Insert(OrderItemCommand order);
+        Task<OrderItem> UpdateOrderItem(OrderItemCommand order);
         Task Delete(int orderItemId);
     }
 }

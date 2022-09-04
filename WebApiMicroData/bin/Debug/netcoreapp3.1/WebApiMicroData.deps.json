@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "WebApiMicroData/1.0.0": {
         "dependencies": {
+          "Business": "1.0.0",
           "Context": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.28",
           "Microsoft.EntityFrameworkCore": "3.1.28",
@@ -1421,6 +1422,18 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Business/1.0.0": {
+        "dependencies": {
+          "Model": "1.0.0",
+          "Repository": "1.0.0"
+        },
+        "runtime": {
+          "Business.dll": {}
+        },
+        "compile": {
+          "Business.dll": {}
+        }
+      },
       "Context/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.28",
@@ -1440,6 +1453,19 @@
         },
         "compile": {
           "Model.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "dependencies": {
+          "Context": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.28",
+          "Model": "1.0.0"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        },
+        "compile": {
+          "Repository.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3785,12 +3811,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Context/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,3 +1,6 @@
+using Business.OrderItems;
+using Business.Orders;
+using Business.Orders.Interfaces;
 using Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +33,9 @@ namespace WebApiMicroData
 
             services.AddDbContext<SolutionContext>(options =>
               options.UseSqlServer(connection));
+
+            services.AddScoped<IBOrder, BOrder>();
+            services.AddScoped<IBOrderItem, BOrderItem>();
 
             services.AddSwaggerGen(c =>
             {

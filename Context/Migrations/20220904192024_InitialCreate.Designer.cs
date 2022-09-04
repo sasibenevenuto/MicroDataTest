@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Context.Migrations
 {
     [DbContext(typeof(SolutionContext))]
-    [Migration("20220903092433_InitialCreate")]
+    [Migration("20220904192024_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,7 +62,7 @@ namespace Context.Migrations
 
             modelBuilder.Entity("Model.Orders.OrderItem", b =>
                 {
-                    b.Property<int>("OrderedItemId")
+                    b.Property<int>("OrderItemId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -94,8 +94,8 @@ namespace Context.Migrations
                     b.Property<decimal>("ValueUnit")
                         .HasColumnType("decimal(5,2)");
 
-                    b.HasKey("OrderedItemId")
-                        .HasName("PrimaryKey_OrderedItemId");
+                    b.HasKey("OrderItemId")
+                        .HasName("PrimaryKey_OrderItemId");
 
                     b.HasIndex("OrderId");
 
