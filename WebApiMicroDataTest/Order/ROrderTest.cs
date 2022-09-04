@@ -1,4 +1,5 @@
 ﻿using Repository;
+using Repository.Orders.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WebApiMicroDataTest.Order
 {
-    public class ROrderTest : IRepository<Model.Orders.Order>
+    public class ROrderTest : IROrder
     {
 
         public async Task Delete(int orderId)
